@@ -5,7 +5,7 @@ const compression = require("compression");
 require ("dotenv").config()
 
 // Changing this to process the environment port, or 3000 if nothing is listed.
-const PORT = (process.env.port || 3000);
+const PORT = (process.env.port || 5001);
 
 const app = express();
 
